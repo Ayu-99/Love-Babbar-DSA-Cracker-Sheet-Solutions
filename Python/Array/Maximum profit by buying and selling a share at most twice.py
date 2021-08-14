@@ -59,4 +59,3 @@ def maxProfit(price, n):
 price = [2, 30, 15, 10, 8, 25, 80]
 print "Maximum profit is", maxProfit(price, len(price))
 
-# This code is contributed by __Devesh Agrawal__
