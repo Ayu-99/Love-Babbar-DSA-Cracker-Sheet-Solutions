@@ -24,6 +24,10 @@ class LinkedList
     }
 
     public void deleteAGivenNode(int val){
+        if(head.data == val){
+            head = head.next;
+            return;
+        }
         Node temp = head, prev = null;
         while(temp.data != val){
             prev = temp;
