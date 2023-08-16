@@ -11,7 +11,7 @@ int maxSubStr(string str, int n)
 	int cnt = 0;
 	for (int i = 0; i < n; i++) {
 		if (str[i] == '0') {
-			couqnt0++;
+			count0++;
 		}
 		else {
 			count1++;
